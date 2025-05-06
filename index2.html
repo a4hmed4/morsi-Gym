@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة التمهيدية</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        .splash-screen {
+            text-align: center;
+        }
+        .splash-screen h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+        .splash-screen p {
+            font-size: 1.2em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="splash-screen">
+        <h1>مرحباً بك في مصيفنا!</h1>
+        <p>استمتع بجمال الطبيعة والراحة المطلقة.</p>
+    </div>
+    <script>
+        // إعادة التوجيه بعد 3 ثوانٍ
+        setTimeout(function() {
+            window.location.href = 'index.html'; // استبدل main.html بصفحة الموقع الرئيسية
+        }, 3000);
+    </script>
+</body>
+</html>
